@@ -1,0 +1,29 @@
+# 基础忽略
+Library/
+Temp/
+obj/
+Logs/
+GameBuilt/
+GameBuilt.zip
+*.csproj
+*.sln
+
+# 补充规则
+#  Unity 缓存和配置
+Library/
+ProjectSettings/ProjectVersion.txt  # 版本号文件（可选，若团队需统一版本可保留）
+UserSettings/  # 个人编辑器设置（如窗口布局，不应共享）
+
+# 平台相关构建产物
+Build/
+Builds/
+Builds-Windows/
+Builds-Mac/
+Builds-Android/
+Builds-iOS/
+
+# 其他临时文件
+*.unitypackage  # 导出的资源包（若需共享应手动提交）
+*.log
+.DS_Store  # Mac 系统文件
+Thumbs.db  # Windows 缩略图缓存
